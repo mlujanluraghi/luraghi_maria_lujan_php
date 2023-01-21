@@ -1,0 +1,208 @@
+/* -----  INICIO DE  HEADER ------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    background-image: url('../CLASE2/IMAGENES/fondo.jpg');
+
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 56px;
+    color: rgb(79, 4, 4);
+    text-align: center;
+    text-shadow: 7px 7px 4px rgba(99, 120, 208, 0.6);
+}
+
+header h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(79, 4, 4);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(59, 4, 4);
+    letter-spacing: 2px;
+}
+
+header nav li {
+    display: inline-block;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header nav li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    color: rgb(59, 4, 4);
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+
+header nav li a:hover {
+    border-bottom: 6px solid rgb(59, 4, 4);
+    transition: 4s;
+}
+
+
+/* -----  FIN DE  HEADER ------ */
+
+
+
+/* -----  INICIO DEL FOOTER ------ */
+
+.pie {
+    margin-top: 500px;
+    background-color: aliceblue;
+    opacity: 70%;
+    height: 140px;
+    padding-top: 5px;
+    columns: 3;
+}
+
+.pie h3 {
+    font-family: 'Great Vibes', cursive;
+}
+
+/* -----  FIN DEL FOOTER ------ */
+
+
+/* -----  INICIO DEL INGRESO ------ */
+
+.contenedor_carga {
+    background-color: firebrick;
+    width: 700px;
+    height: 750px;
+    margin-left: 60px;
+    border-radius: 10px;
+
+}
+
+.contenedor_carga h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    background-color: white;
+    color: rgb(59, 4, 4);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    border: 2px solid firebrick;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+}
+
+.contenedor_carga form input,
+textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 15px;
+    padding-left: 10px;
+    background-color: white;
+    color: rgb(59, 4, 4);
+    width: 650px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+
+}
+
+button {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    border: 2px solid rgb(3, 3, 47);
+    padding: 8px 40px;
+    text-align: center;
+    margin-left: 270px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* -----  FIN DEL INGRESO ------ */
+
+
+/* -----  INICIO DEL VER ------ */
+
+.contenedor_personas{
+    background-color: firebrick;
+    width: 500px;
+    height: auto;
+    margin-left: 60px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+.caja_persona h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    background-color: white;
+    color: rgb(59, 4, 4);
+    text-align: center;
+}
+.caja_persona img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(59, 4, 4);
+    border-radius: 10px;
+    margin-left: 100px;
+
+}
+.caja_persona p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    background-color: white;
+    color: rgb(59, 4, 4);
+    width: 450px;
+    height: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+/* -----  FIN DEL VER ------ */
+
+
+/* -----  INICIO DEL  ------ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----  FIN DEL  ------ */
+
+
+/* -----  INICIO DEL  ------ */
+
+
