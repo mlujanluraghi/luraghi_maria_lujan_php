@@ -135,7 +135,7 @@ button {
 
 /* -----  INICIO DEL VER ------ */
 
-.contenedor_personas{
+.contenedor_personas {
     background-color: firebrick;
     width: 500px;
     height: auto;
@@ -145,13 +145,14 @@ button {
     padding: 10px;
 }
 
-.caja_persona h2{
+.caja_persona h2 {
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
     background-color: white;
     color: rgb(59, 4, 4);
     text-align: center;
 }
+
 .caja_persona img {
     width: 300px;
     height: 300px;
@@ -160,7 +161,8 @@ button {
     margin-left: 100px;
 
 }
-.caja_persona p{
+
+.caja_persona p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: justify;
@@ -179,6 +181,9 @@ button {
 
 }
 
+a {
+    text-decoration: none;
+}
 
 
 
@@ -204,5 +209,3 @@ button {
 
 
 /* -----  INICIO DEL  ------ */
-
-

@@ -11,13 +11,16 @@
 
 <body>
     <header>
+        <?php
+        //date_default_timezone_set("America/Argentina/Buenos Aires");
+        echo date("l/M/y")."<br>"
+        ?>
         <h1>Hogwarts College</h1>
         <h2>Magia y Hechicería</h2>
         <nav>
             <li><a href="index.php">Inicio</a></li>
             <li><a href="ingresar.php">Ingresos</a></li>
             <li><a href="ver.php">Ver</a></li>
-            <li><a href="borrar.php">Eliminar</a></li>
             <li><a href="modificar.php">Modificar</a></li>
         </nav>
     </header>

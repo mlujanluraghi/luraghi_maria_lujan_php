@@ -10,36 +10,43 @@
 </head>
 
 <body>
-<?php
-include("header.php");  ?>
-<br><br>
-<section class="contenedor_personas">
-    <?php include("conexion.php");
-    $consulta_db = mysqli_query($conexion_db, "SELECT * FROM personas");
-
-    while ($mostrar_datos = mysqli_fetch_assoc($consulta_db)) {
-    ?>
-
-
-        <div class="caja_persona">
-            <h2><?php echo $mostrar_datos['nombres'] . " " . $mostrar_datos['apellidos']; ?> </h2>
-
-            <img src="IMAGENES/<?php echo $mostrar_datos['foto'] ?>" alt="<?php echo $mostrar_datos['nombres']; ?>">
-            <p>
-                <?php echo $mostrar_datos['descripcion']; ?>
-            </p>
-
-        </div>
-        <br>
     <?php
-    }
-    ?>
-</section>
+    include("header.php");  ?>
+    <br><br>
+    <section class="contenedor_personas">
+        <?php include("conexion.php");
+        $consulta_db = mysqli_query($conexion_db, "SELECT * FROM personas");
 
-<footer>
+        while ($mostrar_datos = mysqli_fetch_assoc($consulta_db)) {
+        ?>
+
+
+            <div class="caja_persona">
+                <h2><?php echo $mostrar_datos['nombres'] . " " . $mostrar_datos['apellidos']; ?> </h2>
+
+                <img src="IMAGENES/<?php echo $mostrar_datos['foto'] ?>" alt="<?php echo $mostrar_datos['nombres']; ?>">
+                <p>
+                    <?php echo $mostrar_datos['descripcion']; ?>
+                </p>
+            </div>
+
+
+            <a  href="eliminar.php?id=<?php echo $mostrar_datos['id']; ?>">Eliminar</a>
+
+
+
+
+            <br>
+        <?php
+        }
+        ?>
+    </section>
+
+    <footer>
         <?php
         include('footer.php')
         ?>
-</footer>
+    </footer>
 </body>
+
 </html>
