@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body {
-    background-image: url('../CLASE2/IMAGENES/fondo.jpg');
+    background-image: url('../Proyecto_Luraghi/IMAGENES/fondo.jpg');
 
 }
 
@@ -29,7 +29,7 @@ header nav li {
     display: inline-block;
     text-decoration: none;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
 }
 
@@ -60,18 +60,17 @@ header nav li a:hover {
 
 /* -----  INICIO DEL FOOTER ------ */
 
-.pie {
+.pie h3 {
     margin-top: 500px;
     background-color: aliceblue;
     opacity: 70%;
-    height: 140px;
-    padding-top: 5px;
-    columns: 3;
+    height: 100PX;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40PX;
 }
 
-.pie h3 {
-    font-family: 'Great Vibes', cursive;
-}
 
 /* -----  FIN DEL FOOTER ------ */
 
@@ -148,6 +147,8 @@ button {
 .caja_persona h2 {
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: white;
     color: rgb(59, 4, 4);
     text-align: center;
@@ -181,8 +182,16 @@ button {
 
 }
 
-a {
+.contenedor_personas a button {
     text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    border: 2px solid rgb(3, 3, 47);
+    padding: 6px 20px;
+    text-align: center;
+    margin-left: 270px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 
@@ -192,7 +201,7 @@ a {
 /* -----  FIN DEL VER ------ */
 
 
-/* -----  INICIO DEL  ------ */
+/* -----  INICIO DEL COMENTARIO ------ */
 
 
 
@@ -202,10 +211,7 @@ a {
 
 
 
-
-
-
-/* -----  FIN DEL  ------ */
+/* -----  FIN DEL COMENTARIO ------ */
 
 
 /* -----  INICIO DEL  ------ */

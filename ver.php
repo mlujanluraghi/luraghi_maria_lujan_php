@@ -20,7 +20,6 @@
         while ($mostrar_datos = mysqli_fetch_assoc($consulta_db)) {
         ?>
 
-
             <div class="caja_persona">
                 <h2><?php echo $mostrar_datos['nombres'] . " " . $mostrar_datos['apellidos']; ?> </h2>
 
@@ -30,11 +29,7 @@
                 </p>
             </div>
 
-
-            <a  href="eliminar.php?id=<?php echo $mostrar_datos['id']; ?>">Eliminar</a>
-
-
-
+            <a href="eliminar.php?id=<?php echo $mostrar_datos['id']; ?>"><button>Eliminar</button></a>
 
             <br>
         <?php

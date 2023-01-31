@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://localhost/utn_php/clase2/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <title>Academia</title>
 </head>
+
 <body>
 
-<footer class="pie">
-    <h3>Harry Potter y la piedra filosofal</h3>
-    <h3>Harry Potter y la cámara secreta</h3>
-    <h3>Harry Potter y el prisionero de Azkaban</h3>
-    <h3>Harry Potter y el cáliz de fuego</h3>
-    <h3>Harry Potter y la orden del Fénix</h3>
-    <h3>Harry Potter y el misterio del príncipe</h3>
-    <h3>Harry Potter y las reliquias de la muerte - Parte 1</h3>
-    <h3>Harry Potter y las reliquias de la muerte - Parte 2</h3>
+    <footer class="pie">
 
-</footer>
-    
+        <?php
+        date_default_timezone_set("America/Argentina/Buenos_Aires");
+        $fecha_actual = date("d/m/Y H:i");
+        echo "<h3> Hoy es " . $fecha_actual."<br>" ."   La felicidad se puede hallarse hasta en los más oscuros momentos, si somos capaces de usar bien la luz</h3>";
+        
+        ?>
+        
+
+    </footer>
+
 </body>
+
 </html>
